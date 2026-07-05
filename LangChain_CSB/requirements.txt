@@ -1,0 +1,26 @@
+ipykernel
+
+pdfplumber
+
+# Core LangChain Framework
+langchain
+langchain-core
+langchain-community
+
+# Vector Database for Document Storage
+langchain-chroma
+chromadb
+faiss-cpu  #required for -- from langchain_community.vectorstores import FAISS
+
+# Environment Variable Management (secrets)
+python-dotenv
+
+
+# embedding provider
+langchain_google_genai
+# llm
+langchain_groq
+
+# for viewing vector database in a table format
+pandas
+sqlite3
